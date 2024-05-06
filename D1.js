@@ -86,7 +86,7 @@ if (name1==name2)
 else diversi = true;
 
 if (diversi)
-  console.log("name 1 e name2 sono diversi");
+  console.log("name1 e name2 sono diversi");
 else console.log("name1 e name2 sono uguali");
 
 if (name1===name2 && name2==="john") 
