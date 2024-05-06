@@ -81,7 +81,8 @@ let name2 = "John";
 let diversi = false;
 let lowercase = false;
 
-if (name1==name2) 
+//metodo if
+if (name1===name2) 
   diversi = false;  
 else diversi = true;
 
@@ -96,3 +97,13 @@ else lowercase = false;
 if (lowercase)
   console.log("name1 e name2 sono uguali e in minuscolo");
 else console.log("name1 e name2 sono diversi o non in minusculo");
+
+//metodo console log
+console.log("name1 e name2 sono uguali", name1 === name2 );
+//console.log("name1 e name2 sono diversi", !name1 === name2);
+//console.log("name1 e name2 sono uguali e in minuscolo", name1 === name2 && name2 ==="john");
+console.log("name1 e name2 sono uguali e in minuscolo",name1===name2 && name1===name1.toLowerCase());
+//console.log("name1 e name2 sono diversi o non in minusculo", !(name1===name2 && name1===name1.toLowerCase()));
+
+//EXTRA
+console.log("ignorando le maiuscole le stringhe sono uguali", name1.toLowerCase()===name2.toLowerCase());
